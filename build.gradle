@@ -62,9 +62,9 @@ useTestNG(){
 suites 'test1.xml'
 }
 }
-//sourceSets{
-//test.java.srcDir 'src/main'
-//}
+sourceSets{
+test.java.srcDir 'src/main'
+}
 
 
 
