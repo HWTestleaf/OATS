@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39771" started-at="2018-09-02T05:29:17Z" finished-at="2018-09-02T05:29:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39771" started-at="2018-09-02T05:29:17Z" finished-at="2018-09-02T05:29:57Z">
+      <class name="tests.TC002_EditLead">
+        <test-method status="PASS" signature="startResult()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="startResult" is-config="true" duration-ms="500" started-at="2018-09-02T05:29:17Z" finished-at="2018-09-02T05:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startResult -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="setData" is-config="true" duration-ms="1" started-at="2018-09-02T05:29:17Z" finished-at="2018-09-02T05:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="startTestCase" is-config="true" duration-ms="8" started-at="2018-09-02T05:29:18Z" finished-at="2018-09-02T05:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="login" is-config="true" duration-ms="10492" started-at="2018-09-02T05:29:18Z" finished-at="2018-09-02T05:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editLead(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="editLead" duration-ms="9278" started-at="2018-09-02T05:29:29Z" data-provider="fetchData" finished-at="2018-09-02T05:29:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="close" is-config="true" duration-ms="877" started-at="2018-09-02T05:29:38Z" finished-at="2018-09-02T05:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-09-02T05:29:39Z" finished-at="2018-09-02T05:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="login" is-config="true" duration-ms="8840" started-at="2018-09-02T05:29:39Z" finished-at="2018-09-02T05:29:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editLead(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="editLead" duration-ms="8691" started-at="2018-09-02T05:29:48Z" data-provider="fetchData" finished-at="2018-09-02T05:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SRIEEDHER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="close" is-config="true" duration-ms="892" started-at="2018-09-02T05:29:56Z" finished-at="2018-09-02T05:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="stopResult()[pri:0, instance:tests.TC002_EditLead@20398b7c]" name="stopResult" is-config="true" duration-ms="464" started-at="2018-09-02T05:29:57Z" finished-at="2018-09-02T05:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopResult -->
+      </class> <!-- tests.TC002_EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
